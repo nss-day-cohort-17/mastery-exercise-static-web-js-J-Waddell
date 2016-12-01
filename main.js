@@ -1,8 +1,8 @@
 var color = ["red"];
-console.log(color);
+console.dir(color);
 
 var symbol = ["*"];
-console.log(symbol);
+console.dir(symbol);
 
 var listSymbol = "";
 
@@ -11,7 +11,7 @@ for (var i = 0; i < symbol.length; i ++) {
 }
 
 document.onkeypress = function (kbEvt) {
-        if (kbEvt.key.growTree() ==='return', ' ') {
+        if (kbEvt.key.toLowerCase() ==='return', ' ') {
                 alert ('Your tree is growin!')
         }
 }
