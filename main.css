@@ -1,22 +1,29 @@
 h1 {
-        color: #43A047;
+        color: #ecf0f1;
         font-family: "Comic Sans MS", cursive, sans-serif;
+        text-align: center;
+        font-size: 50px;
+        background-color: #4CAF50;
+
 }
 
 body {
         background-color: #C62828;
         border:solid 10px #43A047;
-        padding-left: 30px;
-        padding: 50px;
+        width: auto;
+        height: 650px;
 }
 div.treeHeight {
-
+        text-align: center;
  }
 
 div.treeChar {
-padding: 50px;
+        text-align: center;
+        padding: 200px;
 }
 
 div.button {
-        padding: 250px;
+        text-align: right;
 }
+
+
