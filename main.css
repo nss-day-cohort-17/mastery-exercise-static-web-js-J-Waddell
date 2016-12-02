@@ -5,6 +5,10 @@ h1 {
         font-size: 50px;
         background-color: #4CAF50;
         padding: 10px;
+        border-radius: 50px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 
 }
 
@@ -13,6 +17,9 @@ body {
         border:solid 10px #43A047;
         width: auto;
         height: 650px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
 div.treeHeight {
  }
@@ -20,7 +27,21 @@ div.treeHeight {
 div.treeChar {
 }
 
-div.button {
+.button {
+padding: 10px 100px 5px !important;
+font-size: 21px !important;
+background-color: #F36C8C;
+font-weight: bold;
+text-shadow: 1px 1px #F36C8C;
+color: #ffffff;
+border-radius: 12px;
+-moz-border-radius: 12px;
+-webkit-border-radius: 50px;
+border: 1px solid #F36C8C;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
 
 
