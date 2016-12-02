@@ -1,52 +1,45 @@
-var color = ["red"];
-console.dir(color);
+var height = [" 7 "];
 
-var symbol = ["*"];
-console.dir(symbol);
+var symbol = [" * "];
 
 var listSymbol = "";
 
-for (var i = 0; i < symbol.length; i ++) {
-        symbol[i]
+for (var i = 0; i < symbol.length; i++) {
+    var newSym = symbol[i] + height[i];
+    console.log(newSym);
+    listSymbol += "<li>"+newSym+"</li>";
 }
 
-var event = document.createEvent('Event');
 
-// Define that the event name is 'build'.
-event.initEvent('build', true, true);
 
-// Listen for the event.
-var elem = elem.addEventListener('listener');
-elem.addEventListener('build', function (e) {
-  // e.target matches elem
-}, false);
+document.addEventListener ("keypress", function (kbEvt) {
+        console.log(height.length);
+        if (kbEvt.code ==='Enter', 'Space') {
+                console.log('Your tree is growin!')
+        }
+})
 
-// target can be any Element or other EventTarget.
-elem.dispatchEvent(event);
+var buttonElement = document.getElementById("growButton");
 
-function simulateClick() {
-  var event = new MouseEvent('click', {
-    'view': window,
-    'bubbles': true,
-    'cancelable': true
-  });
-  var cb = document.getElementById('checkbox');
-  var cancelled = !cb.dispatchEvent(event);
-  if (cancelled) {
-    // A handler called preventDefault.
-    alert("cancelled");
-  } else {
-    // None of the handlers called preventDefault.
-    alert("not cancelled");
-  }
+buttonElement.addEventListener ("click", function (kbEvt) {
+        if (true) {
+                console.log('height+symbol');
+        }
+function myFunction(){
+alert ("hello world");
 }
+})
 
-// document.addEventListener ("keypress", function (kbEvt) {
-//         if (kbEvt.code === ' ', 'enter') {
-//                 console.log('Your tree is growin!')
-//         }
-// })
-
+function tree(treeObj) {
+for (var i = 0; i < symbol.length; i++) {
+    var newSym = symbol[i] + height[i];
+    console.log('height+symbol');
+}
+}
+// var treeObj = {
+// key: 7
+// key: #
+// }
 // document.onkeypress = function (kbEvt) {
 //         if (kbEvt.key.toLowerCase() ==='return', ' ') {
 //                 alert ('You gotta plant your height and character seeds first.')
