@@ -6,9 +6,9 @@ h1 {
         background-color: #4CAF50;
         padding: 10px;
         border-radius: 50px;
-        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
--moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
--webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+        box-shadow: 0 5px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 3px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 3px 0 rgba(255, 255, 255, 0.5) inset;
 
 }
 
@@ -16,19 +16,24 @@ body {
         background-color: #C62828;
         border:solid 10px #43A047;
         width: auto;
-        height: 650px;
+        height: 900px;
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
 div.treeHeight {
+        position: relative; top: 70px; left: 5px;
  }
 
 div.treeChar {
+        position: relative; top: 100px; left: 5px;
 }
 
 .button {
-padding: 10px 100px 5px !important;
+position: relative; top: 500px;
+text-align: center;
+padding: 10px 10px 5px !important;
+font-family: "Comic Sans MS", cursive, sans-serif;
 font-size: 21px !important;
 background-color: #F36C8C;
 font-weight: bold;
