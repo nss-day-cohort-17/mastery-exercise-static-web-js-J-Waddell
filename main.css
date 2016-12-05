@@ -22,12 +22,10 @@ body {
 -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
-div.treeHeight {
-        position: relative; top: 70px; left: 5px;
- }
 
-div.treeChar {
-        position: relative; top: 100px; left: 5px;
+
+.treeHeight {
+        margin: 20px 0;
 }
 
 .button {
@@ -49,5 +47,6 @@ box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;"
 }
+
 
 
