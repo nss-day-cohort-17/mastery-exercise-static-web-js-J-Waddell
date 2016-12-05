@@ -13,23 +13,28 @@ h1 {
 }
 
 body {
-        background-color: #C62828;
-        border-radius: 10px;
-        border:groove 10px #43A047;
-        width: auto;
-        height: 900px;
-        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
--moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
--webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+background-color:rgb(0,0,0);
+background-image:url(http://www.zingerbugimages.com/backgrounds/green_lights_seamless_texture.jpg);
+background-position:top left;
+background-repeat:repeat;
+background-attachment:fixed;
 }
 
 
 .treeHeight {
-        margin: 20px 0;
+        margin: 30px 0;
+        width: 30%;
+        background-color: #FCF5D8;
+        color: #AD8C08;
+        border: 3px solid #AD8C08;
+        border-radius: 5px;
+        font-size: 18px;
+        font-family: Comic Sans MS", cursive, sans-serif";
 }
 
 .button {
-position: relative; top: 500px;
+position: relative;
+top: 500px;
 text-align: center;
 padding: 10px 10px 5px !important;
 font-family: "Comic Sans MS", cursive, sans-serif;
@@ -47,6 +52,4 @@ box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;"
 }
-
-
 
