@@ -14,7 +14,7 @@ for (var i = 0; i < symbol.length; i++) {
 
 document.addEventListener ("keypress", function (kbEvt) {
         console.log(height.length);
-        if (kbEvt.code ==='Enter', 'Space') {
+        if (kbEvt.code === 13||32) {
                 console.log('Your tree is growin!')
         }
 })
