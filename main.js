@@ -39,8 +39,35 @@ growButton.addEventListener("click", function() {
 });
 
 
+treeHeight.addEventListener("keypress", whenBtnPressed)
 
 
+function whenBtnPressed(e) {
+    if (e.key === 'Enter') {
+        console.log("The enter button was pressed")
+
+        var usrInput = {
+            height : treeHeight.value,
+            char : treeChar.value
+        }
+        console.log(usrInput)
+
+        tree(usrInput)
+    }
+    console.log(e);
+}
+
+treeChar.addEventListener("keypress", whenBtnPressed)
+
+function whenBtnPressed(e){
+    if (e.key === 'Enter') {
+     var usrInput = {
+        height : treeHeight.value,
+        char : treeChar.value
+     }
+   tree(usrInput)
+    }
+}
 
 
 
